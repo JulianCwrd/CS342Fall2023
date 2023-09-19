@@ -1,4 +1,9 @@
-
+/* Name: Julian Coward
+ * NetID: jcowar3
+ * Description: 
+ * 
+ * 
+ */
 
 public class GLProject {
 
