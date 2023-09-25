@@ -1,11 +1,7 @@
 
 public class SavingsFormulas {
-	
-	
-	
-	
 	public static double futureValueLumpSum(double cash, double interest, int years) {
-		double total = Math.pow(interest, years) * cash;
+		double total = Math.pow((1+interest), years) * cash;
 		return total;
 	}
 	
@@ -49,7 +45,7 @@ public class SavingsFormulas {
 			return total;
 		}
 		else {
-			total = (interest * total) + values[years];
+			total += (interest * total) + values[years];
 			
 			return recSavingsHelper(years+=1, total, values, interest);
 		}

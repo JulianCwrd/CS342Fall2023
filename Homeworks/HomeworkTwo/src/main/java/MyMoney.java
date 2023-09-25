@@ -22,8 +22,8 @@ public class MyMoney{
 			readInValues(cashFilename, sizeAndType[1]);
 		}
 		
-		System.out.println("Values in file "+cashFilename);
-		this.printArray();
+		//System.out.println("Values in file "+cashFilename);
+		//this.printArray();
 	}
 	
 	public MyMoney(String cashFilename, String interestFilename, int...size){

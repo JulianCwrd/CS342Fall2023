@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: SavingsMethodTest
+Test set: MyMoneyTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in SavingsMethodTest
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 s - in MyMoneyTest
