@@ -26,12 +26,15 @@ public class JavaFXTemplate extends Application {
 		Button btn2 = new Button("button 2");
 		BorderPane borderPane = new BorderPane();
 		VBox buttons = new VBox(50,btn1, btn2);
-		TextField textField = new TextField("enter text here then press button 1");
-		borderPane.setCenter(textField);
+		TextField txt1 = new TextField("enter text here then press button 1");
+		TextField txt2 = new TextField("final string goes here");
+		borderPane.setCenter(txt1);
+		txt1.setAlignment(Pos.CENTER);
+		borderPane.setRight(txt2);
 		borderPane.setLeft(buttons);
-		textField.setMaxWidth(300);
+		txt1.setMaxWidth(250);
+		txt2.setEditable(false);
 		Scene scene = new Scene(borderPane, 700,700);
-		textField.setAlignment(Pos.CENTER);
 		primaryStage.setScene(scene);
 		primaryStage.show();
 	}
